@@ -1,0 +1,91 @@
+/* Body */
+body {
+    background-color: #FDFDFD;
+}
+
+cover-image>.container-fluid {
+    padding: 0;
+}
+
+cover-image>.container-fluid>img {
+    position: relative;
+    top: auto;
+    width: 100%;
+    object-fit: cover;
+    border-bottom: 2px solid rgb(51, 51, 51);
+    animation: slide-down-reveal 0.5s ease-in;
+    animation-iteration-count: 1;
+}
+
+company-logo>.container {
+    position: relative;
+    margin-left: 30px;
+    margin-top: 30px;
+    left: auto;
+    padding: 0;
+    width: fit-content;
+    height: fit-content;
+}
+
+company-logo>.container>img {
+    width: 100%;
+    height: 100%;
+    max-width: 50vw;
+    max-height: 50vh;
+    object-fit: cover;
+    animation: fade-in 1s;
+    animation-iteration-count: 1;
+}
+
+
+
+/* Navigation Bar */
+.navbar {
+    background-color: #E9ECEF;
+    border-top: 2px solid rgb(51, 51, 51);
+    border-bottom: 2px solid rgb(51, 51, 51);
+}
+
+.navbar-collapse {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.collapse>.navbar-nav>.nav-item {
+    display: flex;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.navbar-nav>.nav-item>a {
+    font-family: 'Poppins';
+    font-size: 16px;
+    color: rgb(33, 34, 34);
+}
+
+.navbar>.navbar-toggler>.navbar-toggler-icon {
+    margin-left: -5px;
+    content: url("menu\ icon.png");
+}
+
+
+
+/* Footer */
+footer>.container-fluid {
+    background-color: #E9ECEF;
+    height: auto;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    border-top: 1px solid rgb(51, 51, 51);
+}
+
+footer>.container-fluid>p {
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 12px;
+}
+
+
+

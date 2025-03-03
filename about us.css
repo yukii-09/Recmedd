@@ -1,0 +1,186 @@
+body {
+    font-family: 'Poppins';
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #E9ECEF;
+    border-top: 2px solid rgb(51, 51, 51);
+    border-bottom: 2px solid rgb(51, 51, 51);
+}
+
+.navbar-collapse {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.collapse>.navbar-nav>.nav-item {
+    display: flex;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.navbar-nav>.nav-item>a {
+    font-family: 'Poppins';
+    font-size: 16px;
+    color: rgb(33, 34, 34);
+}
+
+.navbar>.navbar-toggler>.navbar-toggler-icon {
+    margin-left: -5px;
+    content: url("images/menu\ icon.png");
+}
+
+/* VISION/MISSIONS */
+
+vission>.container-fluid>h1 {
+    padding: 10px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+vission>.container-fluid {
+    margin-top: 20px;
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+vission>.container-fluid>p {
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: justify;
+    font-size: 22px;
+    line-height: 2;
+}
+
+mission>.container-fluid>h1 {
+    padding: 10px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+mission>.container-fluid {
+    margin-top: 100px;
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+mission>.container-fluid>p {
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: justify;
+    font-size: 22px;
+    line-height: 2;
+}
+
+@media (max-width: 768px) {
+    vission>.container-fluid {
+        margin-top: 10px;
+        animation-name: fade-in;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
+    }
+
+    vission>.container-fluid>h1 {
+        padding: 10px;
+        font-size: 30px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    vission>.container-fluid>p {
+        padding-left: 50px;
+        padding-right: 50px;
+        text-align: justify;
+        font-size: 16px;
+    }
+
+    mission>.container-fluid {
+        margin-top: 50px;
+        animation-name: fade-in;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
+    }
+
+    mission>.container-fluid>h1 {
+        font-size: 30px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    mission>.container-fluid>p {
+        padding-left: 50px;
+        padding-right: 50px;
+        text-align: justify;
+        font-size: 16px;
+    }
+}
+
+/* About Us Section */
+.about-us {
+    padding: 50px;
+    align-content: center;
+    border-top: 2px solid rgb(51, 51, 51);
+    background: #E9ECEF;
+    max-height: fit-content;
+}
+
+.about-us>h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+.about-us>p {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-bottom: 20px;
+    text-align: justify;
+    font-size: 22px;
+    line-height: 2;
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+@media (max-width: 768px) {
+    .about-us>h1 {
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .about-us>p {
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 10px;
+        text-align: justify;
+        font-size: 16px;
+        line-height: 2;
+    }
+}
+
+/* Footer */
+footer>.container-fluid {
+    background-color: #E9ECEF;
+    height: auto;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    border-top: 1px solid rgb(51, 51, 51);
+}
+
+footer>.container-fluid>p {
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 12px;
+}

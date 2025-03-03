@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Playfair',serif;
+    src: url('fonts/Playfair/Playfair-VariableFont_opsz\,wdth\,wght.ttfPlayfair.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Lora',sans-serif;
+    src: url('fonts/Lora/Lora-VariableFont_wght.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('fonts/Bebas_Neue/BebasNeue-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'LeagueSpartan';
+    src: url('fonts/League_Spartan/LeagueSpartan-VariableFont_wght.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Vollkron';
+    src: url('fonts/Vollkorn/Vollkorn-VariableFont_wght.ttf.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+}
+
+.font-playfair {
+    font-family: 'Playfair' !important;
+}
+
+.font-lora {
+    font-family: 'Lora' !important;
+}
+
+.font-babaneue {
+    font-family: 'BebasNeue' !important;
+}
+
+.font-leaque-spartan {
+    font-family: 'LeagueSpartan' !important;
+}
+
+.font-vollkron {
+    font-family: 'Vollkron' !important;
+}
+
+.font-poppins {
+    font-family: 'Poppins' !important;
+}
